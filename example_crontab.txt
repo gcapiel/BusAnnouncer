@@ -1,0 +1,4 @@
+04 7 * * 1,2,3,4 curl http://192.168.1.141/receiver_on.php
+05 7 * * 1,2,3,4 /home/pi/bus.sh
+06 7 * * 1,2,3,4 curl http://192.168.1.141/receiver_off.php
+07 7 * * 1,2,3,4 curl http://192.168.1.141/clear_queue.php
